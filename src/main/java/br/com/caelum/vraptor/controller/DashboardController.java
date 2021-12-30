@@ -4,6 +4,7 @@ import br.com.caelum.vraptor.Controller;
 import br.com.caelum.vraptor.Get;
 import br.com.caelum.vraptor.Path;
 import br.com.caelum.vraptor.Post;
+import br.com.caelum.vraptor.model.Usuario;
 
 @Path("dashboard")
 @Controller
@@ -15,8 +16,8 @@ public class DashboardController {
 	}
 	
 	@Post("salvausuario")
-	public void salvarUsuario() {
-		
+	public void salvarUsuario(Usuario usuario) {
+		System.out.println(usuario.getNome());
 	}
 
 }
