@@ -48,7 +48,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="<c:url value="dashboard"/>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -188,7 +188,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Nome UsuÃ¡rio</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Nome Usuário</span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>
@@ -397,7 +397,7 @@
 
                                 </div>
                                 <div class="card-footer text-center">
-                                    <a href="resultado.html" class="btn btn-primary btn-icon-split btn-lg mt-3 mb-3">
+                                    <a href="<c:url value="resultado"/>" class="btn btn-primary btn-icon-split btn-lg mt-3 mb-3">
                                         <span class="icon text-white-50">
                                             <i class="fas fa-check"></i>
                                         </span>
@@ -450,7 +450,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="<c:url value="login"/>">Logout</a>
                 </div>
             </div>
         </div>

@@ -432,7 +432,7 @@
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                    <a class="btn btn-primary" href="login.html">Sair</a>
+                    <a class="btn btn-primary" href="<c:url value="login"/>">Sair</a>
                 </div>
             </div>
         </div>
