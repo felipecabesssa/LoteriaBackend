@@ -65,13 +65,13 @@
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="novaaposta.html">
+                <a class="nav-link" href="<c:url value="nova"/>">
                     <i class="fas fa-fw fa-hand-holding-usd"></i>
                     <span>Nova Aposta</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="apostas.html">
+                <a class="nav-link" href="<c:url value="apostas"/>">
                     <i class="fas fa-fw fa-coins"></i>
                     <span>Apostas</span></a>
             </li>
