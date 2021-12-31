@@ -51,17 +51,13 @@
                             
                             <form method="post" class="user" action="<c:url value="cadastrar/salvausuario"/>">
                                 <div class="form-group row">
-                                    <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input name="usuario.nome" minlength="3" maxlength="10" type="text" class="form-control form-control-user" id="exampleFirstName"
+                                    <div class="col-sm-12 mb-3 mb-sm-0">
+                                        <input name="usuario.nome" value="${usuario.nome}" minlength="3" maxlength="30" type="text" class="form-control form-control-user" id="exampleFirstName"
                                             placeholder="Nome">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input name="usuario.sobrenome" minlength="3" maxlength="10" type="text" class="form-control form-control-user" id="exampleLastName"
-                                            placeholder="Sobrenome">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input name="usuario.email" type="email" class="form-control form-control-user" id="exampleInputEmail"
+                                    <input name="usuario.email" value="${usuario.email}" type="email" class="form-control form-control-user" id="exampleInputEmail"
                                         placeholder="Email">
                                 </div>
                                 <div class="form-group row">
