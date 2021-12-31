@@ -70,7 +70,7 @@
                                             id="exampleInputPassword" placeholder="Senha">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="password" class="form-control form-control-user"
+                                        <input name="confirmaSenha" type="password" class="form-control form-control-user"
                                             id="exampleRepeatPassword" placeholder="Confirme a senha">
                                     </div>
                                 </div>
